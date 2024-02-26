@@ -1,0 +1,7 @@
+to activate
+
+C:\Users\Tyler\OneDrive\Desktop\928_Rag\ai\Scripts>activate
+
+to deactivate
+
+C:\Users\Tyler\OneDrive\Desktop\928_Rag\ai\Scripts>deactivate

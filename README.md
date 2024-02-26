@@ -6,3 +6,4 @@ The underlying LLM is a gpt3.5 turbo which gives decent results particularly wit
 Pricing is also very fair. During the development process I have submitted at least a few dozen API calls and recieved only a $0.05 chart related to the GPT-3.5-Turbo model. I was also charged $0.01 for the embedding of the vector related to the unstructured PDF. 
 
 
+![image](https://github.com/Tswenson-hub/Porsche-LLM/assets/57569000/b40fb733-b3c7-4d6f-938c-29b00e3eb701)

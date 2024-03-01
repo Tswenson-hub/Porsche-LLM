@@ -1,0 +1,9 @@
+streamlit
+langchain
+pandas
+llama_index.core.query_engine
+prompts
+llama_index.core.tools
+llama_index.core.agent
+llama_index.llms.openai
+openai

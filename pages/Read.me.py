@@ -11,7 +11,6 @@ st.markdown(
                   OPEN-AIs GPT 3.5-Turbo. Costs are resonable; typically it only costs a few cents per query.")
 
 
-with st.file_downloader
 
 st.subheader('app.py')
 st.code(

@@ -5,8 +5,6 @@ import os
 
 
 
-st.write(os.environ)
-
 clear_button = st.sidebar.button("Clear Conversation", key="clear")
 if clear_button or "messages" not in st.session_state:
     st.session_state.messages = [

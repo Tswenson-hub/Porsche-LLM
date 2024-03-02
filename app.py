@@ -17,7 +17,10 @@ if user_input := st.chat_input("Input your question!"):
         answer = complete_llm(user_input)
         st.session_state.messages.append(AIMessage(content=answer.response))
 else:
-    st.markdown("Can't think of anything? Try one of these prompts!")
+    st.markdown("This LLM was rapidly deployed using Free and open-source Python modules. This \
+                simple model is trained on a PDF export from wikipedia for 911 Porsches. In an enterprise \
+                setting this could be trained on company contract, complex records, or large CSV datasets and \
+                interacted with in the same way.")
     st.info("Are Porsches showcased in movies and TV shows?")
     st.info("Tell me a fact about Porsche Carreras that I didn't know.")
     st.info("Do Porsches have a history in racing?")

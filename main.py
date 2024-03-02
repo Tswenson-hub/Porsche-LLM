@@ -10,8 +10,6 @@ from pdf import porsche_engine
 import streamlit as st
 import openai
 
-#OPENAI_API_KEY="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"
-#openai.api_key=OPENAI_API_KEY
 
 
 def complete_llm(input_prompt):

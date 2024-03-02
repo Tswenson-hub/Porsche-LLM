@@ -15,7 +15,6 @@ import openai
 def complete_llm(input_prompt):
     stat_sheet_path = os.path.join("data", "porsche_911.csv")
     stat_sheet_df = pd.read_csv(stat_sheet_path)
-    st.write(stat_sheet_df.head())
 
 
     prices_query_engine = PandasQueryEngine(df=stat_sheet_df, verbose=False, instruction_str=instruction_str)
